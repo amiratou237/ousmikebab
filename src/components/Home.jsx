@@ -4,7 +4,7 @@ function Home() {
 
 
     return (
-<div className="min-h-screen flex flex-row justify-between items-center lg:px-32 px-5 bg-cover bg-center" style={{backgroundImage:'url("../src/assets/image/img.png")'}}>            
+<div className="min-h-screen flex flex-row justify-between items-center lg:px-32 px-5 bg-cover bg-center bg-[url('../src/assets/image/img.png')]" >            
             <div className="w-full lg:w-2/3 space-y-5">
                 <h1 className="  text-backgroundColor font-semibold text-8xl">Fast-food</h1>
                 <h3 className=" text-backgroundColor font-semibold text-xl">100 % HALAL</h3>
